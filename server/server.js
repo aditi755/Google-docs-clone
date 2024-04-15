@@ -11,7 +11,7 @@ mongoose.connect("mongodb+srv://aditi:duaLipa21@cluster0.uybrrhv.mongodb.net/", 
 
 const io = require("socket.io")(3001, {
   cors: {
-    origin: "https://google-docs-clone-pearl.vercel.app",
+    origin: "https://google-docs-clone-pearl.vercel.app/documents/499be139-e872-40be-b0a9-55ccd2c26307",
     methods: ["GET", "POST"],
   },
 })
